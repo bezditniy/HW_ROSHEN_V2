@@ -1,0 +1,167 @@
+body{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.type{
+    width: 100px;
+    height: 30px;
+    margin: 1rem;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.logo{
+    flex-grow: 2;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 70px;
+    flex-basis: 200px;
+}
+
+.txt1{
+    flex-basis: 100px;
+}
+
+.txt2{
+    flex-basis: 80px;
+}
+
+.txt3{
+    flex-basis: 80px;
+}
+
+.txt4{
+    flex-basis: 210px;
+}
+
+.txt5{
+    flex-basis: 150px;
+}
+
+.txt6{
+    flex-basis: 80px;
+}
+
+.txt7{
+    flex-basis: 80px;
+}
+
+.txt8{
+    text-align: center;
+    flex-basis: 120px;
+}
+
+.img{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.nav_txt{
+    color: #aeaeae;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.img-block{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin: 40px;
+}
+
+.main-txt{
+    color: black;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 700;
+    margin-right: 40px;
+}
+
+.roshen{
+    width: 1200px;
+    height: 430px;
+}
+
+.description{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: flex-end;
+}
+
+b{
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+p{
+    line-height: 2rem;
+    font-size: 1em;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.logo-foot{
+    height: 70px;
+    flex-basis: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.type1{
+    width: 100px;
+    height: 30px;
+    margin: 1rem;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.addres{
+    flex-basis: 175px;
+}
+
+.numbers{
+    flex-basis: 200px;
+}
+
+.email{
+    flex-basis: 150px;
+}
+
+.soc_net{
+    flex-basis: 100px;
+}
